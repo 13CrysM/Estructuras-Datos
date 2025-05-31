@@ -23,7 +23,10 @@
 - Siempre realiza el mismo número de comparaciones, esté ordenada o no.
 
 ---
-
+## 📌 Ejemplo de uso:
+- Sistemas con memoria EEPROM o flash donde las escrituras frecuentes desgastan el hardware.
+- Aplicaciones en donde se requiere ordenar con la menor cantidad posible de movimientos (como ordenar archivos físicamente en un disco).
+---
 ## 📊 **Complejidad**
 
 | Caso       | Complejidad     | Descripción                                  |

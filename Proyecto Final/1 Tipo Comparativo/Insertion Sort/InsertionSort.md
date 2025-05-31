@@ -27,7 +27,10 @@
 - Número de comparaciones e intercambios puede ser alto en el peor caso.
 
 ---
-
+### 📌 Ejemplo de uso:
+- Ordenar listas de contactos cuando solo se agrega un nuevo contacto a una lista ya ordenada.
+- Aplicaciones en tiempo real donde los datos se reciben uno a uno y se ordenan al momento.
+---
 ## 📊 **Complejidad**
 | Caso       | Comparaciones/Movimientos | Complejidad   |
 |------------|----------------------------|---------------|

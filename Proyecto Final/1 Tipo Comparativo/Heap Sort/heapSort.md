@@ -24,7 +24,10 @@ Heap Sort es un algoritmo de ordenamiento comparativo basado en una estructura d
 * Más complejo de implementar correctamente que algoritmos como Insertion Sort o Bubble Sort.
 
 ---
-
+## 📌 Ejemplo de uso:
+- Implementación de colas de prioridad.
+- Sistemas que deben mantener el orden parcial de elementos, como en planificación de tareas.
+---
 ## 📊 **Complejidad**
 
 | Caso       | Comparaciones/Operaciones | Complejidad   |

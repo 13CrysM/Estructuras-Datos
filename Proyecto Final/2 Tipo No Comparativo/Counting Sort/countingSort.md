@@ -29,7 +29,10 @@
 - No es ideal para tipos de datos como flotantes o cadenas (sin modificaciones).
 
 ---
-
+## 📌 Ejemplo de uso:
+- Ordenar edades de personas en un censo (rango limitado).
+- Clasificar puntuaciones de exámenes escolares donde los valores están entre 0 y 100.
+---
 ## 📊 **Complejidad**
 
 | Caso       | Complejidad     | Descripción                                |

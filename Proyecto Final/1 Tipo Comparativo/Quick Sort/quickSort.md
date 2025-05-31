@@ -28,7 +28,10 @@
 * Es **superado por algoritmos más eficientes** como Quick Sort, Merge Sort o incluso Insertion Sort en muchos casos.
 
 ---
-
+## 📌 Ejemplo de uso:
+- Sistemas que requieren ordenamiento rápido en memoria como bases de datos en RAM.
+- Aplicaciones de búsqueda como motores de búsqueda o compiladores.
+---
 ## 📊 **Complejidad**
 
 | Caso       | Complejidad     | Descripción                                       |

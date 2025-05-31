@@ -38,6 +38,11 @@ Es un algoritmo de ordenamiento **comparativo** y **simple**, que funciona recor
 
 ---
 
+## 📌 Ejemplo de uso:
+- Aplicaciones educativas para explicar cómo funcionan los algoritmos de ordenamiento paso a paso.
+- Ordenar listas muy cortas, como el reordenamiento visual de elementos en interfaces gráficas pequeñas.
+---
+
 ## 💡 **Conclusión**
 
 Bubble Sort es más valioso como herramienta educativa que como solución práctica.  

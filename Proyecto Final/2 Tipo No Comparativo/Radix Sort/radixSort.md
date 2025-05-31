@@ -26,7 +26,10 @@
 - Consumo de memoria adicional proporcional al número de dígitos y elementos.
 
 ---
-
+## 📌 Ejemplo de uso:
+- Clasificación de números telefónicos o cuentas bancarias.
+- Ordenamiento de registros numéricos grandes en bases de datos.
+---
 ## 📊 **Complejidad**
 
 | Caso       | Complejidad     | Descripción                                 |

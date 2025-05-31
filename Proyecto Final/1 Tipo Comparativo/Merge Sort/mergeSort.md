@@ -26,7 +26,10 @@
 - Puede ser más lento en listas pequeñas que algoritmos simples como Insertion Sort.
 
 ---
-
+## 📌 Ejemplo de uso:
+- Ordenar archivos de gran tamaño almacenados en disco (ordenamiento externo).
+- Sistemas que requieren algoritmos estables para mantener el orden relativo de elementos.
+---
 ## 📊 **Complejidad**
 
 | Caso       | Complejidad     | Descripción                                |

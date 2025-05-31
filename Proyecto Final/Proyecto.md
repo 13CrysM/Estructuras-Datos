@@ -6,17 +6,19 @@
 Proyecto que contiene los métodos de ordenamiento principales.
 
 ## 🛠️ Carpetas
-- Tipo Comparativo
-1. Bubble Sort
-2. Heap Sort
-3. Insertion Sort
-4. Merge Sort
-5. Quick Sort
-6. Selection Sort
-- Tipo No Comparativo
-1. Countin Sort
-2. Radix Sort
-
+1. Tipo Comparativo
+* Bubble Sort
+* Heap Sort
+* Insertion Sort
+* Merge Sort
+* Quick Sort
+* Selection Sort
+2. Tipo No Comparativo
+* Countin Sort
+* Radix Sort
+3. Comparador
+* algoritmos
+* utils
 
 ## 🛠️ Tecnologías utilizadas
 
