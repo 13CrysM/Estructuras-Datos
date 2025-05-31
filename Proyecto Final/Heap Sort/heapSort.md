@@ -27,8 +27,6 @@ Heap Sort es un algoritmo de ordenamiento comparativo basado en una estructura d
 
 ## 📊 **Complejidad**
 
-### 📊 **Complejidad**
-
 | Caso       | Comparaciones/Operaciones | Complejidad   |
 |------------|----------------------------|---------------|
 | Mejor      | O(n log n)                 | O(n log n)    |
