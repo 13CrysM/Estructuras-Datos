@@ -3,11 +3,12 @@
 
 ## 📖 Descripción
 
-Este repositorio contiene la evidencia del trabajo realizado en clase y tareas de la asignatur de Estructura de datos.
+Este repositorio contiene la evidencia del trabajo realizado en clase, tareas de la asignatura de Estructura de datos asi como el proyecto final.
 
 ## 🛠️ Carpetas
 
 - Ejemplos de Matrices, pilas y colas.
+- Proyecto Final (Algoritmos de ordenamiento)
 
 ## 🛠️ Tecnologías utilizadas
 

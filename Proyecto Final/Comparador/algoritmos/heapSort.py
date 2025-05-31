@@ -21,7 +21,8 @@ def amontonar(lista, n, i, stats):
         stats['intercambios'] += 1
         amontonar(lista, n, largo, stats)
 
-def heapSort(lista, n):
+def heapSort(lista):
+    n = len(lista)
     stats = {"comparaciones": 0, "intercambios": 0}
     inicio = time.time()
     #Construir un 'montón' máximo
@@ -35,13 +36,13 @@ def heapSort(lista, n):
 
     fin = time.time()
     duracion = fin - inicio
-    return lista, duracion, stats["comparaciones"], stats["intercambios"]
+    return duracion, stats["comparaciones"], stats["intercambios"]
 
-tamaño = int(input("Ingresa el tamaño de la lista: "))
+'''tamaño = int(input("Ingresa el tamaño de la lista: "))
 #miLista =  random.sample(range(1, tamaño), tamaño - 1)         #Genera lista con valores únicos
 miLista = [random.randint(1, tamaño) for _ in range(tamaño)]    #Genera lista aleatoria
 print(f"Lista generada: {miLista}")
 
 listaOrd, tiempo, comparaciones, intercambios = heapSort(miLista, tamaño)
 print(f"Lista Ordenada por Bubble: {listaOrd}")
-print(f"Tiempo de ordenamiento: {tiempo:.10f} segundos.\nComparaciones: {comparaciones}.\nIntercambios: {intercambios}")
+print(f"Tiempo de ordenamiento: {tiempo:.10f} segundos.\nComparaciones: {comparaciones}.\nIntercambios: {intercambios}")'''

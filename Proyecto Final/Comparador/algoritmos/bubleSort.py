@@ -1,9 +1,9 @@
 import time
 import random
 
-def bubble(lista, n):
+def bubble(lista):
     inicio = time.time()
-    
+    n = len(lista)
     comparacion = 0
     intercambio = 0
     for i in range(n):
@@ -19,12 +19,12 @@ def bubble(lista, n):
     fin = time.time()
     duracion = fin - inicio
     #print(f"Lista Ordenada(f): {lista}")
-    return lista, duracion, comparacion, intercambio
-
-tamaño = int(input("Ingresa el tamaño de la lista a ordenar:  "))
-lista = random.sample(range(1, tamaño + 1), tamaño)
+    return duracion, comparacion, intercambio
+'''
+listSize = int(input("Ingresa el tamaño de la lista a ordenar:  "))
+lista = random.sample(range(1, listSize + 1), listSize)
 print(f"Lista generada:  {lista}")
 
-listaOrd, tiempo, comparaciones, intercambios = bubble(lista, tamaño)
+listaOrd, tiempo, comparaciones, intercambios = bubble(lista)
 print(f"Lista Ordenada por Bubble: {listaOrd}")
-print(f"Tiempo de ordenamiento: {tiempo:.10f} segundos.\nComparaciones: {comparaciones}.\nIntercambios: {intercambios}")
+print(f"Tiempo de ordenamiento: {tiempo:.10f} segundos.\nComparaciones: {comparaciones}.\nIntercambios: {intercambios}")'''

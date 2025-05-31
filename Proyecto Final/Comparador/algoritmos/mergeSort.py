@@ -1,6 +1,7 @@
 import time
 import random
 def mergeSort(lista):
+    n = len(lista)
     stats = {"comparaciones":0, "intercambios":0}
     inicio = time.time()
 
@@ -42,17 +43,19 @@ def mergeSort(lista):
 
         return mezcla(left, right)  # Fusionar las mitades ordenadas
     
-    ordLista = ordena(lista)
+    ordenaLista = ordena(lista)
     fin = time.time()
     duracion = fin - inicio
-    lista [:] = ordLista
+    lista [:] = ordenaLista
     
-    return ordLista, duracion, stats["comparaciones"], stats["intercambios"]
+    return duracion, stats["comparaciones"], stats["intercambios"]
 
-tamaño = int(input(f"Ingresa el tamaño de la lista: "))
+
+
+'''tamaño = int(input(f"Ingresa el tamaño de la lista: "))
 #miLista =  random.sample(range(1, tamaño), tamaño - 1)         #Genera lista con valores únicos
 miLista = [random.randint(1, tamaño) for _ in range(tamaño)]    #Genera lista aleatoria
 print(f"Lista generada: {miLista}")
-listaOrd, tiempo, comparaciones, intercambios  = mergeSort(miLista)
+listaOrd, tiempo, comparaciones, intercambios  = mergeSort(miLista, tamaño)
 print(f"\nLista Ordenada: {listaOrd}")
-print(f"Tiempo de ordenamiento: {tiempo:.10f} segundos.\nComparaciones: {comparaciones}.\nIntercambios: {intercambios}")
+print(f"Tiempo de ordenamiento: {tiempo:.10f} segundos.\nComparaciones: {comparaciones}.\nIntercambios: {intercambios}")'''
