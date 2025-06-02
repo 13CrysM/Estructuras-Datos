@@ -1,6 +1,6 @@
 import time, random
 
-def counting_sort_digit(arr, exp, stats):
+def ordeanar_conteo_digito(arr, exp, stats):
     n = len(arr)
     output = [0] * n
     count = [0] * 10  # Dígitos del 0 al 9
@@ -40,7 +40,7 @@ def radix_sort(arr):
 
     # Aplicar Counting Sort para cada dígito
     while max_val // exp > 0:
-        counting_sort_digit(arr, exp, stats)
+        ordeanar_conteo_digito(arr, exp, stats)
         exp *= 10
 
     elapsed_time = time.time() - start_time

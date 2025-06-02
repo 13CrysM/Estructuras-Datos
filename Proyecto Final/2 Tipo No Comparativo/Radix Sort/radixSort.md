@@ -3,7 +3,7 @@
 **Radix Sort** es un algoritmo no comparativo que ordena los números procesando dígito por dígito, comenzando por el menos significativo (LSD - Least Significant Digit) o el más significativo (MSD). Utiliza un algoritmo estable como Counting Sort como subrutina.
 
 
-### 🧠 **Funcionamiento básico**
+## 🧠 **Funcionamiento básico**
 
 1. Encuentra el número con más dígitos.
 2. Ordena todos los números por cada dígito, desde el menos significativo al más significativo.
